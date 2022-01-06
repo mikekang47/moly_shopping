@@ -52,6 +52,12 @@ dependencies {
     // Maria DB
     implementation group: 'org.mariadb.jdbc', name: 'mariadb-java-client', version: '2.2.0'
 
+    // AssertJ
+    testImplementation 'org.assertj:assertj-core:3.21.0'
+
+    // mock MVC
+    testImplementation "org.mockito:mockito-core:3.+"
+
 }
 
 test {
